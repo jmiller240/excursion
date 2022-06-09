@@ -1,4 +1,9 @@
-#top_header {
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.top_header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     size: 50px;
@@ -6,7 +11,19 @@
     text-align: center;
 }
 
-#link {
+.secondary_header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    size: 42px;
+}
+
+.link {
     color: aquamarine;
     size: 16px;
+}
+
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size: 21px;
+    color: gray;
 }
