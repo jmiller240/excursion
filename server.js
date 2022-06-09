@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
     res.send('Hi there');
 });
 
-app.get('/funky', (req, res) => {
+app.get('/funkyfunky', (req, res) => {
     res.sendFile('./index.html');
 });
 
