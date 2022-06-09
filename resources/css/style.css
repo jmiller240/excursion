@@ -1,0 +1,12 @@
+#top_header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    size: 50px;
+    color: white;
+    text-align: center;
+}
+
+#link {
+    color: aquamarine;
+    size: 16px;
+}
