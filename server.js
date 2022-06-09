@@ -11,8 +11,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/funky', (req, res) => {
-    
-    res.send();
+    res.sendFile('./index.html');
 });
 
 app.listen(3000, () => console.log(`Server started on 3000`));
