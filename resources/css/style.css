@@ -6,7 +6,7 @@ body {
 .top_header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
-    size: 50px;
+    font-size: 50px;
     color: white;
     text-align: center;
 }
@@ -14,16 +14,22 @@ body {
 .secondary_header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
-    size: 42px;
+    font-size: 42px;
+    color: white;
 }
 
 .link {
     color: aquamarine;
-    size: 16px;
+    font-size: 16px;
 }
 
 .description {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    size: 21px;
+    font-size: 21px;
     color: gray;
+}
+
+.copyright {
+    color: gray;
+    text-align: right;
 }
