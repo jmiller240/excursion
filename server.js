@@ -8,11 +8,15 @@ app.use(express.urlencoded({ extended: false, }));
 app.use(express.static('resources'));
 
 app.get('/', (req, res) => {
-    res.send(`<h1 style='font-size: 100px;'>HI THERE</h1>`);
+    res.sendFile('index.html', { root: __dirname });
 });
 
 app.get('/funky', (req, res) => {
-    res.sendFile('index.html', { root: __dirname });
+    res.send(`<h1 style='font-size: 100px;'>HI THERE</h1>`);
+});
+
+app.get('/scores', (req, res) => {
+    res.sendFile('scores.html', { root: __dirname });
 });
 
 app.listen(3000, () => console.log(`Server started on 3000`));
